@@ -1,2 +1,2 @@
 # cutadapt
-Cutadapt
+Docker environment for Cutadapt
