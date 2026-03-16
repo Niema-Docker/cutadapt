@@ -4,7 +4,7 @@ MAINTAINER Niema Moshiri <niemamoshiri@gmail.com>
 
 # install Cutadapt
 RUN apk update && \
-    apk add autoconf automake bash gcc libtool make musl-dev py3-pip python3-dev yasm && \
+    apk add autoconf automake bash gcc libtool make musl-dev nasm py3-pip python3-dev yasm && \
     wget -qO- "https://github.com/intel/isa-l/archive/refs/tags/v2.32.0.tar.gz" | tar -zx && \
     cd isa-l-* && \
     ./autogen.sh && \
