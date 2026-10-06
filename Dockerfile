@@ -11,5 +11,5 @@ RUN apk update && \
     make && \
     make install && \
     cd .. && \
-    pip install --no-cache-dir 'cutadapt==5.2' && \
+    pip install --no-cache-dir --break-system-packages 'cutadapt==5.2' && \
     rm -rf isa-l-*
